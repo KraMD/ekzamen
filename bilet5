@@ -3,7 +3,7 @@ using namespace std;
  
 using namespace std;
  
-int main(int argc, char * argv[])
+int main()
 {
     int a, b;
     cout << "Enter initial number:"; 
