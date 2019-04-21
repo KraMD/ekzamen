@@ -1,0 +1,17 @@
+using namespace std;
+#include <iostream>
+#include <math.h>
+main()
+{
+	int a,b,c,d;
+	cout<<"\n vvedite chislo";
+	cin>>a;
+	b=a%100;
+	d=int(b/10);
+	c=a%10;
+	a=a-b+d+c*10;
+	cout<<"otvet=" <<a;
+	system ("pause");
+	return 0;
+	
+}
