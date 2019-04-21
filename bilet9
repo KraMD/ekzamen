@@ -1,0 +1,26 @@
+using namespace std;
+#include <iostream>
+ 
+using namespace std;
+ 
+main()
+{
+    int a,b,c;
+    cout << "vvedite 1 chislo:"; 
+    cin >> a;
+     cout << "vvedite 2 chislo:"; 
+    cin >> b;
+     cout << "vvedite 3 chislo:"; 
+    cin >> c;
+    
+   if (a>=1 && a<=3 && b>=1 && b<=3 && c>=1 && c<=3) cout<<"otrezky prinadleshat = "<<a<<" "<< b<< " "<< c;
+   if (a>=1 && a<=3 && b>=1 && b<=3 ) cout<<"otrezky prinadleshat = "<<a<<" "<< b;
+   if (a>=1 && a<=3 && c>=1 && c<=3 ) cout<<"otrezky prinadleshat = "<<a<<" "<<c;
+   if (b>=1 && b<=3 && c>=1 && c<=3 ) cout<<"otrezky prinadleshat = "<<b<<" "<<c;
+   if (a>=1 && a<=3) cout<<"otrezky prinadleshat = "<<a;
+   if (b>=1 && b<=3) cout<<"otrezky prinadleshat = "<<b;
+   if (c>=1 && c<=3) cout<<"otrezky prinadleshat = "<<c;
+    else cout<<"ne prinadleshat";
+   
+return 0;
+}
