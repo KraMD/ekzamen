@@ -1,0 +1,23 @@
+using namespace std;
+#include <iostream>
+ 
+using namespace std;
+ 
+main()
+{
+    float x,y,z;
+    cout << "vvedite 1 chislo:"; 
+    cin >> x;
+     cout << "vvedite 2 chislo:"; 
+    cin >> y;
+     cout << "vvedite 3 chislo:"; 
+    cin >> z;
+    
+   if (x<y && x<z) cout<<"min x= "<<x;
+   if (y<x && y<z ) cout<<"min y= "<<y;
+   if (z<x && z<y ) cout<<"mint z= "<<z;
+  
+    else cout<<"ravni";
+   
+return 0;
+}
