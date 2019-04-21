@@ -1,0 +1,15 @@
+using namespace std;
+#include<iostream>
+ int main ()
+{ 
+int g,k;
+g=0;
+do 
+{
+    k=(64-g*2)/4;  
+    if (k*4+g*2==64)
+        cout <<"\n"<<g<< " gysei i  " <<k<< "krolikov";
+    g++;
+} while(g<=32);
+return 0;
+}
