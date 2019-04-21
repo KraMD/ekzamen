@@ -1,0 +1,23 @@
+using namespace std;
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int a, b,k;
+    cout << "Enter initial number:"; 
+    cin >> a;
+    cout << "Enter final number:"; 
+    cin >> b;
+    cout<<"vvedite chislo k";
+    cin >> k;
+      for (int num = a; num <= b; num++)
+    {
+        if ((num % 10) + (((num % 100) - (num % 10)) / 10) < k && int(num/100)>5)
+        {
+            cout << num << '\n';
+        }
+    }
+    return 0;
+}
