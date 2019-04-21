@@ -1,0 +1,17 @@
+using namespace std;
+#include<iostream>
+int main()
+{
+    int n=0;
+    cout<<"\n vvedite chislo ";
+    cin>>n;
+    long int k=0;
+    while(n!=0)
+    {
+         n/=10;
+         k++;
+    }
+    cout<<k;
+    system("pause>0");
+    return 0;
+}
