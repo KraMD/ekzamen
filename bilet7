@@ -1,0 +1,19 @@
+using namespace std;
+#include <iostream>
+ 
+using namespace std;
+ 
+main()
+{
+    int a,b,c,d,k;
+    cout << "vvedite chislo:"; 
+    cin >> a;
+    b=int(a/1000);
+    c=(int(a/100)*100-b*1000)/100;
+    d=(int(a/10)*10-c*100-b*1000)/10;
+    k=a-d*10-c*100-b*1000;
+   if (b==c && c==d || b==d && d==k || c==d &*& d==k || b==c && c==k) cout<<"ravni";
+    else cout<<"neravno";
+   
+return 0;
+}
